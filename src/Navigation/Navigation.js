@@ -11,7 +11,7 @@ export const Navigation = () => {
                 </Nav>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        Created By: <a href="https://github.com/mat4539/fashion-store">Mathew Borg</a>
+                        Created By: <a href="https://github.com/mat4539/fasion-store">Mathew Borg</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

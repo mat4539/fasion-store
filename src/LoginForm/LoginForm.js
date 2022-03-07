@@ -37,7 +37,6 @@ export const LoginForm = () => {
                     onChange={(e) => setPassword(e.target.value)}
                 />
                 <br />
-
                 <Button
                     variant="outline-secondary"
                     disabled={username.length === 0 || password.length === 0}
