@@ -1,0 +1,51 @@
+.login {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.passcode-container {
+    width: 75vh;
+    background-color: #212529;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3em;
+}
+.passcode {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+input {
+    border-radius: 0.5em;
+    border: darkgray;
+    background-color: darkgray;
+    height: 2em;
+    width: 16em;
+    outline: none;
+    display: block;
+}
+h1{
+    padding: 0.5em;
+}
+
+.center-block {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+}
+
+Button{
+    width: 16em;
+    border-radius: 0.5em;
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: darkgray;
+    border: solid darkgray;
+    outline: none;
+    color: aliceblue;
+}
