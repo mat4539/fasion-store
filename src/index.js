@@ -4,11 +4,11 @@ import './index.css';
 import App from './App';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import reportWebVitals from './reportWebVitals';
-import {ProductList} from "./ProductList/ProductList";
 import {LoginForm} from "./LoginForm/LoginForm";
 import {Admin} from "./ProductList/Admin";
 import {Navigation} from "./Navigation/Navigation";
 import {Footer} from "./Navigation/Footer";
+import {DataList} from "./ProductList/DataList";
 
 ReactDOM.render(
     <React.StrictMode>
@@ -20,7 +20,7 @@ ReactDOM.render(
                         <Routes>
                             <Route path="/" element={<App />} />
                             <Route path="/LoginForm" element={<LoginForm />} />
-                            <Route path="/ProductList" element={<ProductList />}/>
+                            <Route path="/ProductList" element={<DataList />}/>
                             <Route path="/Admin" element={<Admin />}/>
                         </Routes>
                     </BrowserRouter>
