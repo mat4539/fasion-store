@@ -16,7 +16,7 @@ export const AddProductForm = ({
         <div>
             <div className="align-1">
                 <div className="container-1">
-                    <h1 className="text-1">Add Student</h1>
+                    <h1 className="text-1">Add Product</h1>
                     <label className="text-1">Name: </label>
                     <input
                         type="text"
