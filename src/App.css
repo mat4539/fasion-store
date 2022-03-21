@@ -49,3 +49,10 @@ Button{
     outline: none;
     color: aliceblue;
 }
+
+.align-table{
+    padding: 2em;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}

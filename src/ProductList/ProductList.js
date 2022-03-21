@@ -11,9 +11,9 @@ const clothes = [
     {id: 4, name: "T-Shirt", price: 80, description: "Red T-Shirt", stock: 5},
     {id: 5, name: "Jacket", price: 50, description: "M12 Jacket", stock: 5},
 ];
+export{clothes};
 
 export const ProductList = () => {
-    const [id, setID] = useState(0);
     const [name, setName] = useState("");
     const [price, setPrice] = useState(0);
     const [description, setDescription] = useState("");
@@ -26,11 +26,12 @@ export const ProductList = () => {
     };
 
     return (
-        <div className="date-table">
+        <div>
             <SearchProductForm
             search={search}
             setSearch={setSearch}
             />
+            <div className="align-table">
             <Table striped bordered hover variant="dark">
                 <thead>
                 <tr>
@@ -59,9 +60,8 @@ export const ProductList = () => {
                 ))}
                 </tbody>
             </Table>
+            </div>
             <AddProductForm
-                id={id}
-                setId={setID}
                 name={name}
                 setName={setName}
                 price={price}

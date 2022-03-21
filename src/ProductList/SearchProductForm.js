@@ -4,10 +4,10 @@ export const SearchProductForm = ({
                                       search, setSearch
                                   }) => {
     return(
-        <div className="login">
-            <div className="passcode-container">
-                <div className="center-block">
-                    <h1 className="passcode">Search</h1>
+        <div>
+            <div className="align-1">
+                <div className="container-1">
+                    <h1 className="text-1">Search</h1>
                     <input
                         type="text"
                         value={search}

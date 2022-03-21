@@ -2,13 +2,15 @@ import React from "react";
 import {ProductList} from "./ProductList";
 
 export const Admin = () => {
-    return(
-        <div className="product-list">
-            <div className="txt">
-                <h1>Product List</h1>
-                <p>Admin Panel</p>
-                <ProductList/>
+    return (
+        <div>
+            <div className="align-1">
+                <div className="container-1">
+                    <h1 className="text-1">Product List</h1>
+                    <p className="text-1"> Admin Portal</p>
+                </div>
             </div>
+            <ProductList/>
         </div>
-    )
+    );
 }
