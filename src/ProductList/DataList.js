@@ -1,5 +1,4 @@
 import React from "react";
-import "./productlist.css"
 import {ProductList} from "./ProductList";
 
 export const DataList = () => {

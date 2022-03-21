@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import {Button} from "react-bootstrap"
 import { useNavigate } from "react-router-dom";
-import "./LoginForm.css"
 
 
 export const LoginForm = () => {
@@ -19,18 +18,19 @@ export const LoginForm = () => {
     }
 
     const form = (
-        <div className="login">
-            <div className="passcode-container">
-                <div className="center-block">
-                <h1 className="passcode">Login</h1>
-                <h3 className="passcode">Username</h3>
+        <div>
+            <div className="align-1">
+            <div className="container-1">
+                <h1 className="text-1">Login</h1>
+                <hr/>
+                <h3 className="text-1">Username</h3>
                 <input
                     type="text"
                     value={username}
                     onChange={(e) => setUsername(e.target.value)}
                 />
                 <br />
-                <h3 className="passcode">Password</h3>
+                <h3 className="text-1">Password</h3>
                 <input
                     type="password"
                     value={password}
@@ -43,7 +43,7 @@ export const LoginForm = () => {
                     onClick={checkRegisteredUser}
                 > Login
                 </Button>
-                </div>
+            </div>
             </div>
         </div>
     );

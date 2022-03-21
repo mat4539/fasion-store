@@ -1,6 +1,5 @@
 import React, {useState} from "react";
 import {Table} from "react-bootstrap";
-import "./productlist.css"
 import {AddProductForm} from "./AddProductForm";
 import {SearchProductForm} from "./SearchProductForm";
 
